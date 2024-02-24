@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+main
+{    
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+    flex: 1;
+}

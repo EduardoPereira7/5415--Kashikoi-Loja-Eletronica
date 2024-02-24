@@ -1,0 +1,175 @@
+.arrowButton
+{
+  width: 150px;
+  margin: auto;
+  padding: 10px;
+  background-color: transparent;
+  border: 0px;
+}
+
+.arrowButton:hover {
+  background-color: #eaeaea;
+  color: #333333;
+}
+
+.slideImage
+{
+  width: 100%;
+}
+
+.topDownMargin
+{
+  padding-top: 50px;
+}
+.centerText
+{
+  text-align: center;
+}
+
+.grey_back{
+  background-color: lightgrey;
+  width: 100%;
+  height: 30px;
+  color: white;
+  margin: 10px;
+}
+
+.pictures{
+  border-radius: 50%;
+  width: 180px;
+  margin: 5%;
+}
+
+.support
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 5%;   
+  background-color: rgba(249, 245, 245, 0.988);
+}
+
+.support:hover {
+  background-color: #eaeaea;
+  cursor: pointer; 
+}
+
+.form_map {
+  
+  display: grid;
+  grid-gap: 10px;
+  width: 90%;
+  height: 500px;
+  padding: auto;
+  margin: auto;
+  grid-template-columns: 1fr 1fr;    
+}
+
+.contacts{
+  display: grid;
+  grid-gap: 10px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 80px;
+  grid-template-columns: 1fr 1fr;  
+}
+
+.form-container,
+.map-container {
+  height: 100%;
+}
+
+form {
+  max-width: 500px;
+  padding: 20px;
+  background-color: rgb(239, 238, 238);
+  border-radius: 5px;
+}
+
+.form-input {
+  margin-bottom: 26px;
+}
+
+.form-input input,
+.form-input textarea {
+  width: 100%;
+  
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.form-submit {
+  text-align: center;
+}
+
+.form-submit button {
+  padding: 10px 20px;
+  background-color: #808580;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.map {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.slideshow-container {
+max-width: 1060px;
+width: 100%;
+position: relative;
+margin: auto;
+margin-top: 36px;
+cursor: pointer; 
+}
+
+
+.text {
+color: black;
+font-size: 25px;
+padding: 12px;
+position: absolute;
+bottom: 8px;
+width: 100%;
+text-align: center;
+}
+
+
+@media only screen and (max-width: 600px){
+  .form_map {
+    grid-template-columns: 1fr;    
+    
+  margin-bottom: 400px;    
+  }
+  .map{
+    height: 500px;
+  }
+  .form-input {
+  margin-bottom: 10px;
+  }
+  .contacts {
+    grid-template-columns: 1fr;   
+  }
+}
+
+p{
+  padding: 10px;  
+}
